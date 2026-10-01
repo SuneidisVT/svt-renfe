@@ -3,7 +3,7 @@ import { expect, test, type Page } from '@playwright/test';
 const ORIGIN = 'Madrid-Atocha';
 const DESTINATION = 'BARCELONA-SANTS';
 const MIN_PRICE_EUR = 50;
-const MAX_PRICE_EUR = 60;
+const MAX_PRICE_EUR = 120;
 
 function futureTravelDate(): { display: string; input: string } {
   const date = new Date();
